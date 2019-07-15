@@ -5,12 +5,8 @@
   <!-- 指定hdfs的老大 -->
   <property>
     <name>fs.defaultFS</name>
-    <value>hdfs://192.168.86.111:9000</value>
+    <value>hdfs://sd1:8020</value>
   </property>
   <!-- 指定hadoop临时目录 -->
-  <property>
-    <name>hadoop.tmp.dir</name>
-    <value>/usr/local/hadoop/tmp</value>
-  </property>
 
 </configuration>
